@@ -136,3 +136,10 @@ async def get_stats():
         "Q3remaining": Q3total-Q3completed,
         "Q4remaining": Q4total-Q4completed,
     }
+
+def main():
+    import uvicorn
+    uvicorn.run("resolution_week3_YOUR_USERNAME.main:app", host="127.0.0.1", port=8000)
+
+if __name__ == "__main__":
+    main()
