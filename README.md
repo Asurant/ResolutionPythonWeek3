@@ -1,17 +1,19 @@
 # Tasks API
 
-I made a simple API that acts as a task manager using FastAPI and Python. It allows the ussage of an Eisenhower Matrix in order to organize tasks based on their urgency and importance.
+I made a simple API that acts as a task manager using FastAPI and Python. It allows the use of an Eisenhower Matrix in order to organize tasks based on their urgency and importance.
 
 ## Installation
 In order to install the package you will need to run ```pip install -i https://test.pypi.org/simple/ resolution-week3-Asurant``` in your CLI
+You have an installation issue involving packages, use this command:
+```pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ resolution-week3-Asurant```
 
 ## Running The Project
 After you install the package you can start the API using:  
 ```todo-api```  
 The API will the run locally at:  
 ```http://127.0.0.1:8000```  
-However you can access the API documentation and use it at:  
-```http://127.0.0.1:8000/docs```  
+You can access the API documentation and use it at:  
+```http://127.0.0.1:8000/docs```
 
 ## API Endpoints
 | Request | Endpoint | Description |
