@@ -4,8 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "resolution_week3_Asurant"
-version = "0.0.1"
-dependencies = [ "fastapi[standard]" ]
-
+version = "0.0.2"
+dependencies = [
+    "fastapi[standard]>=0.115.0"
+]
 [project.scripts]
 todo-api = "resolution_week3_Asurant.main:main"

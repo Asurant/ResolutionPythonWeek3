@@ -139,7 +139,7 @@ async def get_stats():
 
 def main():
     import uvicorn
-    uvicorn.run("resolution_week3_YOUR_USERNAME.main:app", host="127.0.0.1", port=8000)
+    uvicorn.run("resolution_week3_Asurant.main:app", host="127.0.0.1", port=8000)
 
 if __name__ == "__main__":
     main()
