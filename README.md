@@ -1,6 +1,6 @@
 # Tasks API
 
-I made a simple API that acts as a task manager using FastAPI and Python. It allows the use of an Eisenhower Matrix in order to organize tasks based on their urgency and importance.
+I made a simple API that acts as a task manager using FastAPI and Python. It allows the use of an Eisenhower Matrix in order to organize tasks based on their urgency and importance.  
 You can try it out here on this site or install it yourself  
 https://resolutionpythonweek3.asurant.hackclub.app/docs
 ## Installation
